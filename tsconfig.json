@@ -17,9 +17,10 @@
     "moduleResolution": "Node16",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
+    "outDir": "dist",
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "es6"
-  }
+  },
 }
