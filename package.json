@@ -1,5 +1,8 @@
 {
   "name": "reactodon",
   "license": "MIT",
-  "author": "Patrik Csak <p@trikcsak.com>"
+  "author": "Patrik Csak <p@trikcsak.com>",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
