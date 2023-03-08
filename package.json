@@ -2,7 +2,19 @@
   "name": "reactodon",
   "license": "MIT",
   "author": "Patrik Csak <p@trikcsak.com>",
+  "scripts": {
+    "format": "xo --fix",
+    "test": "xo"
+  },
   "devDependencies": {
-    "typescript": "^4.9.5"
-  }
+    "eslint-config-xo-react": "^0.27.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^4.9.5",
+    "xo": "^0.53.1"
+  },
+  "engines": {
+    "node": ">=14 <=19"
+  },
+  "type": "module"
 }

@@ -1,6 +1,7 @@
 {
+  // https://github.com/vercel/turbo/blob/v1.8.3/examples/basic/packages/tsconfig/base.json
+  // https://github.com/vercel/turbo/blob/v1.8.3/examples/basic/packages/tsconfig/react-library.json
   "compilerOptions": {
-    // https://github.com/vercel/turbo/blob/v1.8.3/examples/basic/packages/tsconfig/base.json
     "composite": false,
     "declaration": true,
     "declarationMap": true,
@@ -8,17 +9,17 @@
     "forceConsistentCasingInFileNames": true,
     "inlineSources": false,
     "isolatedModules": true,
-    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "lib": [
+      "ES2015"
+    ],
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "strict": true,
-
-    // https://github.com/vercel/turbo/blob/v1.8.3/examples/basic/packages/tsconfig/react-library.json
-    "jsx": "react-jsx",
-    "lib": ["ES2015"],
-    "module": "ESNext",
     "target": "es6"
   }
 }
